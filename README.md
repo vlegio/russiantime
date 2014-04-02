@@ -16,10 +16,12 @@ And call:
         
 ##Package files:##
 
-* ###russiantime.go###
->>func Russian(time.Time, string) string
-* ###const.go###
->>Internal data
+* russiantime.go
+   
+    > func Russian(time.Time, string) string
+* const.go
+    
+    > Internal data
 
 
 ##Format string syntax:##
