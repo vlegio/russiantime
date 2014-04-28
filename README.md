@@ -1,3 +1,4 @@
+[![GoDoc](https://godoc.org/github.com/t0pep0/russiantime?status.png)](https://godoc.org/github.com/t0pep0/russiantime)
 #Russiantime#
 
 Golang package for format time in Russain style
