@@ -12,6 +12,7 @@ import library:
     import "github.com/t0pep0/russiantime"
 
 And call:
+
     time = time.Now()
     ruTime.Time = russiantime.Time
     ruTime.FormatRU("%YYYY %YYY %YY %Y, %md %Md %m %M, %D %d, %Wd %w %W, %H %h, %N %n, %S %s")
