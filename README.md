@@ -11,20 +11,11 @@ import library:
     import "github.com/t0pep0/russiantime"
 
 And call:
-
-    russiantime.Russian(time.Now(), "%YYYY %YYY %YY %Y, %md %Md %m %M, %D %d, %Wd %w %W, %H %h, %N %n, %S %s")
+    time = time.Now()
+    ruTime.Time = russiantime.Time
+    ruTime.FormatRU("%YYYY %YYY %YY %Y, %md %Md %m %M, %D %d, %Wd %w %W, %H %h, %N %n, %S %s")
         =>  2014 014 14 4, 4 04 Апр Апрель, 02 2, 3 Ср Среда, 14 14, 00 0, 56 56
         
-##Package files:##
-
-* russiantime.go
-   
-    > func Russian(time.Time, string) string
-* const.go
-    
-    > Internal data
-
-
 ##Format string syntax:##
 > %YYYY - full digit year (e.g. 2014)
 
